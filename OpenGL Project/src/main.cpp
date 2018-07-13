@@ -28,11 +28,14 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
+        // old bad opengl code for a simple triangle
         glBegin(GL_TRIANGLES);
         glVertex2f(-.5, -.5);
         glVertex2f(  0,  .5);
-        glVertex2f( .5, -.5);
+        glVertex2f( .5, -.6);
         glEnd();
+        // end old bad code
+        // aaahhhhhh
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
