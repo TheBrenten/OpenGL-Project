@@ -30,9 +30,9 @@ int main(void)
 
         // old bad opengl code for a simple triangle
         glBegin(GL_TRIANGLES);
-        glVertex2f(-.5, -.5);
-        glVertex2f(  0,  .5);
-        glVertex2f( .5, -.6);
+        glVertex2f( .5,  .5);
+        glVertex2f(  0, -.5);
+        glVertex2f(-.5,  .6);
         glEnd();
         // end old bad code
         // aaahhhhhh
